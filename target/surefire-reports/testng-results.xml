@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-14T00:53:46 IST" name="Suite" finished-at="2021-09-14T00:54:34 IST" duration-ms="48270">
+    <groups>
+    </groups>
+    <test started-at="2021-09-14T00:53:46 IST" name="Test" finished-at="2021-09-14T00:54:34 IST" duration-ms="48270">
+      <class name="myproject.completeQuiz.QualicoachHome">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:myproject.completeQuiz.QualicoachHome@433defed]" started-at="2021-09-14T00:53:46 IST" name="launchBrowser" finished-at="2021-09-14T00:53:56 IST" duration-ms="10694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="Quizmodule()[pri:0, instance:myproject.completeQuiz.QualicoachHome@433defed]" started-at="2021-09-14T00:53:56 IST" name="Quizmodule" finished-at="2021-09-14T00:53:59 IST" duration-ms="2185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quizmodule -->
+        <test-method signature="navigationPage(java.lang.String,java.lang.String)[pri:0, instance:myproject.completeQuiz.QualicoachHome@433defed]" started-at="2021-09-14T00:53:59 IST" name="navigationPage" data-provider="getData" finished-at="2021-09-14T00:54:27 IST" duration-ms="28089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user211]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User@9135]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationPage -->
+        <test-method signature="selectCourse()[pri:0, instance:myproject.completeQuiz.QualicoachHome@433defed]" started-at="2021-09-14T00:54:27 IST" name="selectCourse" finished-at="2021-09-14T00:54:34 IST" duration-ms="7190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCourse -->
+        <test-method is-config="true" signature="kill()[pri:0, instance:myproject.completeQuiz.QualicoachHome@433defed]" started-at="2021-09-14T00:54:34 IST" name="kill" finished-at="2021-09-14T00:54:34 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kill -->
+      </class> <!-- myproject.completeQuiz.QualicoachHome -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

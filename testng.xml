@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<listeners>
+<listener class-name="myproject.completeQuiz.Listeners"/>
+</listeners>
+  <test  name="Home">
+    <classes>
+    <class name="myproject.completeQuiz.QualicoachHome"/>
+       </classes>
+       </test>
+       <test  name="edit user">
+    <classes>
+    <class name="myproject.completeQuiz.UpdateUserProfile"/>
+       </classes>
+       </test>
+       <test  name="certificates">
+    <classes>
+    <class name="myproject.completeQuiz.CertificateISTQB"/>
+       </classes>
+       </test>
+     <test  name="Badges">  
+      <classes>
+        <class name="myproject.completeQuiz.BadgesEarned"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

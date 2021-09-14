@@ -1,0 +1,7 @@
+20:51:44.726 [TestNG-tests-1] INFO  resources.BaseInitialize - Quiz is attempted
+20:53:05.608 [TestNG-tests-3] INFO  resources.BaseInitialize - login is sucessful
+20:53:05.795 [TestNG-tests-4] INFO  resources.BaseInitialize - login is sucessful
+20:53:10.276 [TestNG-tests-1] INFO  resources.BaseInitialize - login is sucessful
+20:53:12.007 [TestNG-tests-4] INFO  resources.BaseInitialize - driver is closed
+20:53:16.592 [TestNG-tests-1] INFO  resources.BaseInitialize - course is selected
+20:53:16.760 [TestNG-tests-1] INFO  resources.BaseInitialize - driver is closed
